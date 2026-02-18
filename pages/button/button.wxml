@@ -1,0 +1,5 @@
+<button>普通按钮</button>
+
+<button type="primary">主色调按钮</button>
+
+<button type="warn">警告按钮</button>
