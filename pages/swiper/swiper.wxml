@@ -1,5 +1,5 @@
 <!--pages/swiper/swiper.wxml-->
-<swiper class="swiper-container">
+<swiper class="swiper-container" >
   <swiper-item>
     <view class="item">A</view>
   </swiper-item>

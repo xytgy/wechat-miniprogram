@@ -1,0 +1,6 @@
+<!--pages/text/text.wxml-->
+<view>
+  <text selectable>15082969854</text>
+</view>
+
+<rich-text nodes="<h1 style= 'color: red;'>标题</h1>"></rich-text>
