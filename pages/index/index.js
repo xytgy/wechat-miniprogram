@@ -3,7 +3,9 @@ const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia0
 
 Page({
   data: {
-    info: 'Hello World'
+    info: 'Hello World',
+    imgsrc: 'https://img.shetu66.com/2023/04/04/1680590478322274.jpg',
+    randomNum1 :Math.random() * 10
   },
   bindViewTap() {
     wx.navigateTo({

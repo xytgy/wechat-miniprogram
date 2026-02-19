@@ -1,1 +1,2 @@
 <view>{{info}}</view>
+<image src="{{imgsrc}}" mode="widthFix"></image>
