@@ -4,6 +4,12 @@ page {
   display: flex;
   flex-direction: column;
 }
+input {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
 .scrollarea {
   flex: 1;
   overflow-y: hidden;

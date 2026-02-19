@@ -5,7 +5,30 @@ Page({
   data: {
     info: 'Hello World',
     imgsrc: 'https://img.shetu66.com/2023/04/04/1680590478322274.jpg',
-    randomNum1 :Math.random() * 10
+    randomNum1 :Math.random() * 10,
+    count: 0,
+    count2: 0,
+    msg: "你好"
+  },
+  changeCount() {
+    this.setData({
+      count: this.data.count + 1
+    })
+  },
+  changeCount2(e) {
+    this.setData({
+      count2: this.data.count2 + e.target.dataset.info
+    })
+  },
+  inputHandler(e) {
+    // console.log(e.detail.value)
+    this.setData({
+      msg: e.detail.value
+    })
+    console.log(e.detail.value)
+  },
+  btnTapHandler(e) {
+    console.log(e)
   },
   bindViewTap() {
     wx.navigateTo({

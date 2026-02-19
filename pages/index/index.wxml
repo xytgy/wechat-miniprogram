@@ -1,2 +1,15 @@
 <view>{{info}}</view>
 <image src="{{imgsrc}}" mode="widthFix"></image>
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<button type="primary" bind:tap="btnTapHandler">按钮</button>
+
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<button type="primary" bindtap="changeCount">+1</button>
+<view>当前数值：{{count}}</view>
+
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<button type="primary" bindtap="changeCount2" data-info="{{2}}">+2</button>
+<view>当前数值：{{count2}}</view>
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+<input value="{{msg}}" bindinput="inputHandler"></input>
+<view>实时内容：{{msg}}</view>
