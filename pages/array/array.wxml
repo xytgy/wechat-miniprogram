@@ -1,0 +1,3 @@
+<view wx:for="{{array}}">
+  索引是: {{index}}, 当前项是: {{item.name}} id是: {{item.id}}
+</view>

@@ -5,10 +5,11 @@ Page({
   data: {
     info: 'Hello World',
     imgsrc: 'https://img.shetu66.com/2023/04/04/1680590478322274.jpg',
-    randomNum1 :Math.random() * 10,
+    randomNum1: Math.random() * 10,
     count: 0,
     count2: 0,
-    msg: "你好"
+    msg: "你好",
+    randomNum: Math.random().toFixed(2), 
   },
   changeCount() {
     this.setData({
