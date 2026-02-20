@@ -13,3 +13,4 @@
 <view>~~~~~~~~~~~~~~~~~~~~~~~~~</view>
 <input value="{{msg}}" bindinput="inputHandler"></input>
 <view>实时内容：{{msg}}</view>
+<view>{{randomNum1 >= 5 ? '随机数的大小大于或等于5' : '随机数小于5'}}</view>

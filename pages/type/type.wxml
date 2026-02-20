@@ -1,3 +1,9 @@
 <view wx:if="{{type == 1}}">男</view>
 <view wx:elif="{{type == 2}}">女</view>
 <view wx:else>保密</view>
+
+<block wx:if="{{true}}">
+  <view>view1</view>
+  <view>view2</view>
+  <view>view3</view>
+</block>

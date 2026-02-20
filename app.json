@@ -1,19 +1,18 @@
 {
   "pages": [
-    "pages/type/type",
     "pages/index/index",
+    "pages/type/type",
     "pages/images/images",
     "pages/button/button",
     "pages/text/text",
     "pages/swiper/swiper",
     "pages/list/list",
-    
     "pages/logs/logs"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarBackgroundColor": "#ffffff"
+    "navigationBarTitleText": "程序员",
+    "navigationBarBackgroundColor": "#2b4b6b"
   },
   "style": "v2",
   "componentFramework": "glass-easel",
